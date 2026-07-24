@@ -1,14 +1,19 @@
 
 
+import chai from "./chai"
 
-import heroImg from './assets/hero.png'
 
 
 function App() {
-  
+  const userName = "Chai aur code"  
 
   return (
-   <h1>chai aur react with vitereact anshu</h1>
+    <>
+    <Chai/>
+    <h1> chai aur react {userName}</h1>
+    <p> test para</p>
+    </>
+   
   )
 }
 
